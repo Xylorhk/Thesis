@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283589118956615045}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 101.57, y: 35.029083, z: 164.871}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1873044889177788371}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &5923344688136112706
 AudioSource:
@@ -223,6 +223,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027235445866556334}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -231,7 +232,6 @@ Transform:
   - {fileID: 2383911532756790399}
   - {fileID: 1873044889177788371}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5945026807800864859
 MonoBehaviour:
@@ -750,7 +750,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 65
-        y: 349
+        y: 365
         width: 100
         height: 32
       isBreakpoint: 0
@@ -900,7 +900,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 723.1953
-        y: 179.35938
+        y: 195.35938
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1052,7 +1052,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 507
-        y: 355.79688
+        y: 371.79688
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1104,7 +1104,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 450.125
-        y: 491.5625
+        y: 507.5625
         width: 173.2
         height: 32
       isBreakpoint: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 697.1953
-        y: 112.34375
+        y: 128.34375
         width: 164.4
         height: 32
       isBreakpoint: 0
@@ -1305,7 +1305,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 732.09375
-        y: 245.26562
+        y: 261.26562
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1411,7 +1411,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 262
-        y: 352.79688
+        y: 368.79688
         width: 138.8
         height: 32
       isBreakpoint: 0
@@ -1505,7 +1505,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 721.4219
-        y: 403.78125
+        y: 419.78125
         width: 158
         height: 32
       isBreakpoint: 0
@@ -1712,7 +1712,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 747.4219
-        y: 470.79688
+        y: 486.79688
         width: 137.2
         height: 32
       isBreakpoint: 0
@@ -1864,7 +1864,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 756.3203
-        y: 536.7031
+        y: 552.7031
         width: 125.2
         height: 32
       isBreakpoint: 0
@@ -1983,6 +1983,9 @@ MonoBehaviour:
     - name: CheckPoint / Timeout
       isSystemEvent: 0
       isGlobal: 1
+    - name: Player / Passed Out
+      isSystemEvent: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: Checkpoint / Set Spawn
@@ -2007,6 +2010,15 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: Timeout Fade Out
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Player / Passed Out
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: Fade Out
       linkStyle: 0
       linkConstraint: 0
       linkTarget: 0
@@ -2070,7 +2082,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 010000000300000004000000
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -2937,13 +2949,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115757466546492294}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071061, z: -0, w: -0.7071075}
   m_LocalPosition: {x: 119.183, y: 33.614, z: 182.961}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5911781142821541002}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1 &5379324493778817109
 GameObject:
@@ -2972,6 +2984,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5379324493778817109}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2979,7 +2992,6 @@ Transform:
   m_Children:
   - {fileID: 4259568030275986461}
   m_Father: {fileID: 5911781142821541002}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1095786164287381388
 AudioSource:

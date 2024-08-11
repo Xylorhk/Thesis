@@ -76,3 +76,12 @@ MonoBehaviour:
   - Audio / Footstep
   - NewThoughts
   - Thoughts / New
+  - Set Time / Dawn
+  - Set Time / Dusk
+  - Set Time / Midnight
+  - Set Time / Noon
+  - Player / Passed Out
+  - Stress / Increase
+  - Stress / Decrease
+  - Stress / Reset
+  - Add Day
