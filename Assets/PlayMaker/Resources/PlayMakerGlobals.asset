@@ -85,3 +85,12 @@ MonoBehaviour:
   - Stress / Decrease
   - Stress / Reset
   - Add Day
+  - Funds / Add
+  - Funds / Subtract
+  - Package / Interact
+  - Package / Drop
+  - Holder / Holding
+  - Holder / NotHolding
+  - Tasks_Decline
+  - Tasks_Accept
+  - Package / AssignID
