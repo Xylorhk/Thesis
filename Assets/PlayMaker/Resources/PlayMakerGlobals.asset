@@ -91,6 +91,15 @@ MonoBehaviour:
   - Package / Drop
   - Holder / Holding
   - Holder / NotHolding
-  - Tasks_Decline
-  - Tasks_Accept
   - Package / AssignID
+  - Tasks_Accept
+  - Tasks / Accept
+  - Tasks_Decline
+  - Tasks / Decline
+  - Receiver / SetID
+  - Tasks / Confirm
+  - Tasks / Complete
+  - Receiver / Destroy
+  - Tasks / CheckOrder
+  - Stress / Event
+  - Tasks / Back
