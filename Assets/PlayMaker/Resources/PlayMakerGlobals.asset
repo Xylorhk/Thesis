@@ -122,3 +122,8 @@ MonoBehaviour:
   - Vendor / Sale
   - Vendor / Accept
   - Funds / Purchase
+  - SleepSystem / Sleep
+  - SleepSystem / Wake
+  - Tasks / PauseOrders
+  - Tasks / ResumeOrders
+  - Funds / Bankrupt
