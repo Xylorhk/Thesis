@@ -127,3 +127,5 @@ MonoBehaviour:
   - Tasks / PauseOrders
   - Tasks / ResumeOrders
   - Funds / Bankrupt
+  - Phase / GameOver
+  - Phase / Win
