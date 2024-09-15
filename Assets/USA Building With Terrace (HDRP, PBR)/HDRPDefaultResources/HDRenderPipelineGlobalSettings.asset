@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781cc897cf8675041a751163b51f97dd, type: 3}
   m_Name: HDRenderPipelineGlobalSettings
   m_EditorClassIdentifier: 
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: 34f5bf25cb169ac4ea108a480895283b, type: 2}
-  m_LookDevVolumeProfile: {fileID: 11400000, guid: 8e3ef83bc3ad3404ca1a198c3f59549a, type: 2}
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 34f5bf25cb169ac4ea108a480895283b,
+    type: 2}
+  m_LookDevVolumeProfile: {fileID: 11400000, guid: 8e3ef83bc3ad3404ca1a198c3f59549a,
+    type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 72198260625768269
@@ -59,8 +61,10 @@ MonoBehaviour:
     sssCustomSampleBudget: 20
     msaaMode: 1
     materialQuality: 0
-  m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7, type: 2}
-  m_RenderPipelineRayTracingResources: {fileID: 0}
+  m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
+    type: 2}
+  m_RenderPipelineRayTracingResources: {fileID: 11400000, guid: ba6e7f30e5cffc249a8bf7ee5756c196,
+    type: 2}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
   afterPostProcessBlursCustomPostProcesses: []
@@ -82,10 +86,9 @@ MonoBehaviour:
   decalLayerName5: Decal Layer 5
   decalLayerName6: Decal Layer 6
   decalLayerName7: Decal Layer 7
-  shaderVariantLogLevel: 0
   lensAttenuationMode: 0
   colorGradingSpace: 0
-  diffusionProfileSettingsList:
+  m_ObsoleteDiffusionProfileSettingsList:
   - {fileID: 11400000, guid: 62dc276f6be206b47a533f5a9eda9025, type: 2}
   - {fileID: 11400000, guid: d1a08660c4580664a9aed758b39ecdc4, type: 2}
   rendererListCulling: 0
@@ -93,10 +96,14 @@ MonoBehaviour:
   useDLSSCustomProjectId: 0
   supportProbeVolumes: 0
   supportRuntimeDebugDisplay: 0
+  autoRegisterDiffusionProfiles: 0
   apvScenesData:
     serializedBounds: []
     serializedHasVolumes: []
     serializedProfiles: []
     serializedBakeSettings: []
     serializedBakingSets: []
-  m_Version: 3
+    m_LightingScenario: Default
+  m_Version: 5
+  m_ShaderVariantLogLevel: 0
+  m_ExportShaderVariants: 1

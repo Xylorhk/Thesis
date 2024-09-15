@@ -124,8 +124,10 @@ MonoBehaviour:
   - Funds / Purchase
   - SleepSystem / Sleep
   - SleepSystem / Wake
-  - Tasks / PauseOrders
   - Tasks / ResumeOrders
   - Funds / Bankrupt
   - Phase / GameOver
   - Phase / Win
+  - Tasks / PauseOrders
+  - SleepSystem / Nightmare
+  - Stress / BaseIncrease

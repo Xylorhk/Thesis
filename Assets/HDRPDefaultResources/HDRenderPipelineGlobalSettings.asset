@@ -19,7 +19,7 @@ MonoBehaviour:
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 140666621263709
-      data2: 4539628434053070872
+      data2: 4539628433784635416
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -33,8 +33,8 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
     bitDatas:
-      data1: 139742655312669
-      data2: 4539628424389459992
+      data1: 139742663701277
+      data2: 4539628427879153688
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_RenderingPathDefaultRealtimeReflectionFrameSettings:
     bitDatas:
       data1: 139716617048837
-      data2: 4539628424389459992
+      data2: 4539628426536976408
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -63,7 +63,8 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
     type: 2}
-  m_RenderPipelineRayTracingResources: {fileID: 0}
+  m_RenderPipelineRayTracingResources: {fileID: 11400000, guid: ba6e7f30e5cffc249a8bf7ee5756c196,
+    type: 2}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
   afterPostProcessBlursCustomPostProcesses: []
