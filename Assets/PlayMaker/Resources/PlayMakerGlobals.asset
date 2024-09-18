@@ -131,3 +131,4 @@ MonoBehaviour:
   - Tasks / PauseOrders
   - SleepSystem / Nightmare
   - Stress / BaseIncrease
+  - Patrol / GetRandom
