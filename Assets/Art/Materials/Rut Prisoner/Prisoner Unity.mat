@@ -24,7 +24,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Prisoner Unity
-  m_Shader: {fileID: -6465566751694194690, guid: 8b6ee3f9d2d772549a4de7411b9e5c6d, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 8b6ee3f9d2d772549a4de7411b9e5c6d,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -213,6 +214,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
+    - _ExcludeFromTUAndAA: 0
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -288,14 +290,16 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_b9c2427d166e46ffabeb72a3baf15c08: {r: 1, g: 1, b: 1, a: 0}
-    - DiffusionProfile_7fcc26c2248247bab5eede0f56bda6d1_Asset: {r: 5.854717e+36, g: -1.7652788e+22, b: 3.4321559e+31, a: -8.797952e+17}
+    - DiffusionProfile_7fcc26c2248247bab5eede0f56bda6d1_Asset: {r: 5.854717e+36, g: -1.7652788e+22,
+        b: 3.4321559e+31, a: -8.797952e+17}
     - Vector2_1: {r: 10, g: 10, b: 0, a: 0}
     - Vector2_2: {r: 25, g: 25, b: 0, a: 0}
     - Vector2_74e752d278ad4b918d0be38660a1c51e: {r: 35, g: 35, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffusionProfileAsset: {r: 5.854717e+36, g: -1.7652788e+22, b: 3.4321559e+31, a: -8.797952e+17}
+    - _DiffusionProfileAsset: {r: 5.854717e+36, g: -1.7652788e+22, b: 3.4321559e+31,
+        a: -8.797952e+17}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
