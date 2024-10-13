@@ -132,3 +132,6 @@ MonoBehaviour:
   - SleepSystem / Nightmare
   - Stress / BaseIncrease
   - Patrol / GetRandom
+  - Vision / PartialDetection
+  - Vision / Detected
+  - Vision / Lost
