@@ -135,3 +135,7 @@ MonoBehaviour:
   - Vision / PartialDetection
   - Vision / Detected
   - Vision / Lost
+  - Agent / Pursuit
+  - Stamina / Damage
+  - Aggression / Attack
+  - Agent / Attack
