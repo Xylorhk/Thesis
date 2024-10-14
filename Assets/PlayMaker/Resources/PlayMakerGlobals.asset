@@ -139,3 +139,10 @@ MonoBehaviour:
   - Stamina / Damage
   - Aggression / Attack
   - Agent / Attack
+  - SleepSystem / PassedOut
+  - Agent / SeekLastPosition
+  - Vision / ProximityDetected
+  - Foreboding / Check
+  - Foreboding / Haunt
+  - Foreboding / CurseIncrease
+  - Foreboding / AlterThreshold
