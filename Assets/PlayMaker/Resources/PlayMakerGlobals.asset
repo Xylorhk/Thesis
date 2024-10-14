@@ -147,3 +147,7 @@ MonoBehaviour:
   - Foreboding / CurseIncrease
   - Foreboding / AlterThreshold
   - Tasks / AbortOrder
+  - Foreboding / RefreshHaunts
+  - Bus / Arrive
+  - Bus / TicketBought
+  - Bus / Depart
