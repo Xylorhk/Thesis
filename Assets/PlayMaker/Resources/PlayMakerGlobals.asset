@@ -153,3 +153,5 @@ MonoBehaviour:
   - Scene / End
   - Slam
   - Vision / PartialDetection
+  - Package / NotVisible
+  - Package / Visible
